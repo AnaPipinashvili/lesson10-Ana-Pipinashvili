@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Ana's website Description ">
+    <meta name="keywords" content="Html, css, form, responsive, meta tags">
+    <meta name="author" content="Ana's Hotel-page">
+    <meta name="googlebot" content="notranslate" />
+    <meta property="og:url"                content="#"/>
+    <meta property="og:type"               content="Zetta-hotel's Website" />
+    <meta property="og:title"              content="Our Fb Title" />
+    <meta property="og:description"        content="Our Fb DEscription" />
+    <meta property="og:image"              content="https://www.google.com/search?q=image&sxsrf=APq-WBu27MU62hY2Hdby4CGhRz4H4F3OKQ:1650820250737&tbm=isch&source=iu&ictx=1&vet=1&fir=nH5liarSz56duM%252C0JWe7yDOKrVFAM%252C_%253BqXynBYpZpHkhWM%252C4O2GvGuD-Cf09M%252C_%253BQOZymhPf48LDYM%252CLOSptVP0p_ZwUM%252C_%253BDH7p1w2o_fIU8M%252CBa_eiczVaD9-zM%252C_%253Bn5hAWsQ-sgKo_M%252C-UStXW0dQEx4SM%252C_%253B2DNOEjVi-CBaYM%252CAOz9-XMe1ixZJM%252C_%253B0DzWhtJoQ1KWgM%252CcIQ7wXCEtJiOWM%252C_%253Bz4_uU0QB2pe-SM%252C7SySw5zvOgPYAM%252C_%253BMOAYgJU89sFKnM%252CygIoihldBPn-LM%252C_%253BxE4uU8uoFN00aM%252CpEU77tdqT8sGCM%252C_%253BuD-WKhoPb7taoM%252CVjlu6XxRvRb4lM%252C_%253BkwgHAQqTiLQXLM%252CR0KnAtfyBDsyiM%252C_%253B22LfYBs93BDCLM%252C7T8fKkixbRnWvM%252C_&usg=AI4_-kRzyMY5-drcxthRN3laMVZYRdOaLw&sa=X&ved=2ahUKEwjSjYjVmK33AhU7R_EDHYOLAhkQ9QF6BAgpEAE#imgrc=n5hAWsQ-sgKo_M" />
+   
+    <title>Lesson 10 - BG-image </title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    
+</head>
+<body>
+    <section class="section-wraper">
+        <div class="bg-image">
+            <header class="header">
+              <div >
+                <a class="title" href="#">Zetta Hotels</a>
+              </div>
+              <nav class="navigation">
+                <ul class="nav-ul">
+                  <li > <a class="nav-li active" href="index.html">HOME</a> </li>
+                  <li > <a class="nav-li rooms" href="#"> ROOMS </a> </li> 
+                  <i class="fa-solid fa-arrow-down-square-triangle"></i>
+                  <li > <a class="nav-li" href="#">RESTAURANT</a> </li>
+                  <li > <a class="nav-li" href="#">ABOUT US</a></li>
+                  <li ><a class="nav-li" href="#">BLOG</a></li>
+                  <li><a class="nav-li" href="#">CONTACT</a></li>
+                </ul>
+              </nav>
+            </header>
+            <div class="contact-wraper">
+                <h2 class="contact">Contact</h2>
+                <h3 class=" h3 line">Home</h3>
+                <h3 class="h3"> Contact</h3>
+            </div>
+        </div>
+
+    </section>
+    <section class="section-wraper">
+        <div class="map">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3153.277283114994!2d-122.41134986806206!3d37.783541054693224!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8085808679110299%3A0x2607188167b0f1ef!2sHotel%20Zetta%20San%20Francisco%2C%20a%20Viceroy%20Urban%20Retreat!5e0!3m2!1sen!2sge!4v1650807148995!5m2!1sen!2sge" width="1088" height="286" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>            
+            
+        </div>
+        <div class="contact-form">
+            <div class="text-wraper">
+                <h6 class="h6">CONTACT</h6>
+                <h2 class="h2">Contact us to get free support</h2>
+            </div>
+            <form action="#">
+                <div class="form-wraper">
+                    <div>
+                        <label for="Description"></label>
+                        <textarea class="textarea-block" name="Your-Description" id="Description" placeholder= " Your-Description..."> Describe ...</textarea>
+                    </div>
+                    <div class="form-column">
+                        <div>
+                            <label for="subject"></label>
+                            <input class="input-block" id="subject" name="youe-subject" placeholder="subject..." type="text">
+                        </div>
+                        <div class="form-column">
+                            <label for="name-surname"></label>
+                            <input class="input-block" id="name-surname" name="name" placeholder="name/surname" type="text">
+
+                        </div>
+                        <div class="form-column">
+                            <label for="email"></label>
+                            <input class="input-block" id="email" name="your-email" placeholder="enter email..." type="text">
+
+                        </div>
+                        <button class="btn-send" type="button"> Send <i class="fa-solid fa-location-arrow"></i>  </button>
+                    </div>
+    
+                </div>
+            </form>
+
+        </div>
+        <div class="icon-wraper">
+            <div class="form-icon">
+                <div class="blue-icon">
+                    <img class="mail" src="images/mail-1.png" alt="email">
+                </div>
+                <h5 class="p-title"> Email</h5>
+                <p class="p-text">example@yahoo.com </p>
+                <p class="p-text">exampleemail2@yahoo.com</p>
+            </div>
+
+            <div class="form-icon">
+                <div class="blue-icon">
+                    <img class="mail" src="images/phone-1.png" alt="call">
+                </div>
+                <h5 class="p-title"> Phone</h5>
+                <p class="p-text">+0 320 422 4254
+                </p>
+                <p class="p-text"> +0 342 552 523</p>
+            </div>
+
+            <div class="form-icon">
+                <div class="blue-icon">
+                    <img class="mail" src="images/map-pin-1.png" alt="location">
+                </div>
+                <h5 class="p-title"> Location</h5>
+                <p class="p-text">Main Str Chicago Ilinois
+                </p>
+                <p class="p-text">Main Street New York City</p>
+            </div>
+        </div>
+
+    </section>
+    <section class="section-wraper">
+        <div class="section3-text">
+            <h6 class="h6"> PHOTOS </h6>
+            <h2 class="h2">See our latest photos from restaurant and hotel</h2>
+
+        </div>
+        <div class="div-photos">
+            <img src="images/beach.jpg" alt="beach">
+            <img src="images/view.jpg" alt="view">
+            <img src="images/stairs.jpg" alt="home">
+
+        </div>
+
+    </section>
+    <footer>
+        <div class="footer-wraper">
+            <div class="right-div">
+                <h4 class="footer-title">Zetta Hotels</h4>
+                <p class="footer-p">Our hotel is an image of quality and profesionalism combined with hard work and precision. You can expect only the best services from our staff.</p>
+                <img src="images/facebook.png" alt="fb-logo">
+                <img src="images/twitter.png" alt="tw-logo">
+                <img src="images/google-plus.png" alt="google-logo">
+            </div>
+            <div class="footer-div">
+                <h3 class="footer-title">useful links</h3>
+                <a class="blue-link" href="#">BLOG</a>
+                <a class="blue-link" href="#">Rooms</a>
+                <a class="blue-link" href="#">Gift Card</a>
+                <a class="blue-link" href="#">Testimonials</a>
+            </div>
+            <div class="footer-div">
+                <h3 class="footer-title">useful links</h3>
+                <a class="blue-link" href="#">BLOG</a>
+                <a class="blue-link" href="#">Rooms</a>
+                <a class="blue-link" href="#">Gift Card</a>
+                <a class="blue-link" href="#">Testimonials</a>
+            </div>
+            <div class="footer-div">
+                <h3 class="footer-title">Contact info</h3>
+                <p class="footer-p"><i class="fa-solid fa-envelope"></i> example@yahoo.com</p>
+                <p class="footer-p"><i class="fa-solid fa-phone"></i> +0 320 422 4254</p>
+                <p class="footer-p"><i class="fa-solid fa-location-dot"></i>Main Str Chicago Ilinois</p>
+            </div>
+            
+        
+    </footer>
+    
+    
+</body>
+</html>
+
+ 
