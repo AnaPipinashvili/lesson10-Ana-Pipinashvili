@@ -8,11 +8,11 @@
 /* First section (BG_IMAGE & HEADER) */
 
 .section-wraper{
-    display: block; 
-    max-width: 1366px;   
+    /* display: block;  */
+    /* max-width: 1366px;    */
     width: 100%;
-    height: 100%;
-    margin: auto;
+    height: 100%
+    /* margin: auto; */
 }
 
 .bg-image{
